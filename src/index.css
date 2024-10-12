@@ -1,0 +1,165 @@
+.navbar {
+    background-color: #64ff6eaa;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 1%;
+    margin-left: 9%;
+    margin-right: 9%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+nav .nav-item {
+    margin: 0 10px;
+    padding-right: 20px;
+}
+
+nav .nav-link {
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #000000;
+    padding-left: 2%;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.home-container {
+    padding: 80px 3% 20px 3%;
+    text-align: center;
+}
+
+.home-container h1 {
+    font-size: 45px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.home-container .book-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: #e6e6e68e;
+}
+
+.home-container .book-list-container h2 {
+    font-size: 35px;
+    padding: 5px;
+}
+
+.book-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-list li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.book-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-list {
+    font-size: 18px;
+}
+
+.book-list a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.book-list a:hover {
+    color: #0056b3;
+}
+
+.book-list .author {
+    font-style: italic;
+    color: #555;
+}
+
+.about-container {
+    padding: 80px 0 20px 0;
+    text-align: center;
+}
+
+.about-container h2 {
+    font-size: 45px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.container {
+    padding: 100px;
+}
+
+.book-detail-container {
+    width: 100%;
+    margin: auto;
+    padding: 5%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-detail-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.book-detail-container h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.book-detail-container p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.book-not-found {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ff6b6b;
+}
